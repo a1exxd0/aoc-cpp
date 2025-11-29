@@ -1,4 +1,10 @@
 cc_library(
   name = "aoc_client",
+  srcs = [
+    "aoc_client.hpp",
+  ],
+  deps = [
+    "//lib/aoc_client/download",
+  ],
   visibility = ["//lib:__subpackages__"]
 )
