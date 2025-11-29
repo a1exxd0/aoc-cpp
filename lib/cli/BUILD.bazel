@@ -1,0 +1,5 @@
+cc_library(
+  name = "cli",
+  visibility = ["//lib:__subpackages__"],
+)
+

@@ -1,0 +1,4 @@
+cc_library(
+  name = "aoc_client",
+  visibility = ["//lib:__subpackages__"]
+)

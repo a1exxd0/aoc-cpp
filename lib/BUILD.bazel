@@ -1,0 +1,8 @@
+cc_library(
+  name = "lib",
+  deps = [
+    "//lib/aoc_client",
+    "//lib/cli",
+  ],
+  visibility = ["//visibility:public"]
+)

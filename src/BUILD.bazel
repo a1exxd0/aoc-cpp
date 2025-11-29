@@ -1,0 +1,9 @@
+cc_binary(
+  name = "aoc-cpp",
+  deps = [
+    "//lib:lib",
+  ],
+  srcs = [
+    "aoc_cpp.cpp",
+  ],
+)
