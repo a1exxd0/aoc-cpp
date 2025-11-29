@@ -1,0 +1,13 @@
+
+cc_library(
+  name = "http",
+  srcs = [
+    "http.hpp",
+    "http.cpp",
+  ],
+  deps = [
+    "@boost.asio",
+    "@boost.beast",
+  ],
+  visibility = ["//lib:__subpackages__"]
+)

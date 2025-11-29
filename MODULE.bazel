@@ -4,6 +4,8 @@ module(
 
 bazel_dep(name = "googletest", version = "1.17.0")
 bazel_dep(name = "cli11", version = "2.5.0")
+bazel_dep(name = "boost.asio", version = "1.89.0")
+bazel_dep(name = "boost.beast", version = "1.89.0")
 bazel_dep(name = "hedron_compile_commands", dev_dependency = True)
 git_override(
     module_name = "hedron_compile_commands",

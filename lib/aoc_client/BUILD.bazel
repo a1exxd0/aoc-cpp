@@ -1,10 +1,14 @@
 cc_library(
   name = "aoc_client",
   srcs = [
+    "aoc_client.cpp",
     "aoc_client.hpp",
   ],
   deps = [
     "//lib/aoc_client/download",
+    "//lib/aoc_client/http",
+    "@boost.asio",
+    "@boost.beast",
   ],
   visibility = ["//lib:__subpackages__"]
 )

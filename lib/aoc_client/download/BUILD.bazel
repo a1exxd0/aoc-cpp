@@ -1,5 +1,8 @@
 cc_library(
   name = "download",
+  srcs = [
+    "error_type.hpp",
+  ],
   visibility = [
     "//lib:__subpackages__",
   ],
