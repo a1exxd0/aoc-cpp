@@ -2,6 +2,7 @@ cc_binary(
   name = "aoc-cpp",
   deps = [
     "//lib:lib",
+    "@cli11//:cli11",
   ],
   srcs = [
     "aoc_cpp.cpp",

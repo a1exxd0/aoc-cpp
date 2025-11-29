@@ -1,5 +1,15 @@
 cc_library(
   name = "cli",
+  srcs = [
+    "app.cpp",
+    "app.hpp",
+    "command_types.hpp",
+    "dotenv.cpp",
+    "dotenv.hpp",
+  ],
+  deps = [
+    "@cli11//:cli11",
+  ],
   visibility = ["//lib:__subpackages__"],
 )
 

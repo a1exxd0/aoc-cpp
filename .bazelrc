@@ -1,0 +1,10 @@
+# Build flags
+build --cxxopt=-std=c++23
+
+# Run commands
+
+# Defines
+
+# macos edge cases!
+build --macos_minimum_os=13.3
+build --host_macos_minimum_os=13.3
